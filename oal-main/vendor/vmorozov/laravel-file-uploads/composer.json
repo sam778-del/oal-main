@@ -1,0 +1,32 @@
+{
+    "name": "vmorozov/laravel-file-uploads",
+    "type": "library",
+    "description": "This package provides a convenient way to upload files to the cloud storage amazon s3 or locally fast in Laravel",
+    "keywords": ["laravel","illuminate","file uploads","cloud uploads","s3", "aws","amazon s3","filesystems"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Morozov",
+            "email": "freezer278@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "illuminate/http": ">=5.4",
+        "illuminate/support": ">=5.4",
+        "intervention/image": "^2.4|^6.0",
+        "league/flysystem": "^1.0",
+        "league/flysystem-aws-s3-v3": "^1.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Vmorozov\\FileUploads\\": "src/FileUploads"
+        }
+    },
+    "autoload-dev": {
+
+    },
+    "minimum-stability": "stable"
+}

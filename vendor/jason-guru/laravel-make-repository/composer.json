@@ -1,0 +1,29 @@
+{
+    "name": "jason-guru/laravel-make-repository",
+    "description": "A simple package to create a make:repository command for Laravel 5+",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "G Jason Sharma",
+            "email": "g.jason.sharma@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JasonGuru\\LaravelMakeRepository\\RepositoryServiceProvider"
+            ]
+        }
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "JasonGuru\\LaravelMakeRepository\\": "src/"
+        }
+    }
+}
